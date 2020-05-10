@@ -1,4 +1,4 @@
-.signature {
+.signa {
   box-sizing: border-box;
   margin: 0 auto;
   width: 450px;
@@ -11,7 +11,7 @@
   outline-offset: 2px;
 }
 
-.signature > .pokemon-list {
+.signa > .pokemon-list {
   width: 430px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -19,7 +19,7 @@
   margin: 10px;
 }
 
-.signature > .pokemon-list > .pokemon {
+.signa > .pokemon-list > .pokemon {
   background: #141414;
   display: flex;
   justify-content: center;
@@ -30,7 +30,7 @@
   cursor: crosshair;
 }
 
-.signature > .pokemon-list > .pokemon::after {
+.signa > .pokemon-list > .pokemon::after {
   content: '';
   width: 136.66px;
   height: 121px;
@@ -44,7 +44,7 @@
   outline-offset: -2px;
 }
 
-.signature > .pokemon-list > .pokemon > .name {
+.signa > .pokemon-list > .pokemon > .name {
   position: absolute;
   width: 136.66px;
   height: 121px;
@@ -60,7 +60,7 @@
   transition: all ease-in-out .45s;
 }
 
-.signature > .pokemon-list > .pokemon::before {
+.signa > .pokemon-list > .pokemon::before {
   content: '';
   background: rgba(16, 16, 16, 1);
   width: 204px;
@@ -73,19 +73,19 @@
   opacity: 0.95;
 }
 
-.signature > .pokemon-list > .pokemon.active:hover > .name {
+.signa > .pokemon-list > .pokemon.active:hover > .name {
   opacity: 0;
 }
 
-.signature > .pokemon-list > .pokemon.active:hover::after {
+.signa > .pokemon-list > .pokemon.active:hover::after {
   opacity: 1;
 }
 
-.signature > .pokemon-list > .pokemon.active:hover::before {
+.signa > .pokemon-list > .pokemon.active:hover::before {
   opacity: 0;
 }
 
-.signature > .pokemon-list > .pokemon > img {
+.signa > .pokemon-list > .pokemon > img {
   position: relative;
   z-index: 100;
 }
